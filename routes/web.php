@@ -7,6 +7,7 @@ use App\Http\Controllers\Admin\CustomerController as AdminCustomerController;
 use App\Http\Controllers\Frontend\PageController;
 use App\Http\Controllers\Frontend\CarController;
 use App\Http\Controllers\Frontend\RentalController;
+use App\Http\Controllers\Frontend\ContactController;
 
 Route::get('/', [PageController::class, 'home'])->name('home');
 Route::get('/about', [PageController::class, 'about'])->name('about');
